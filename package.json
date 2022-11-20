@@ -2,7 +2,7 @@
   "name": "freecodecamp-color-theme",
   "displayName": "Freecodecamp Color Theme",
   "description": "Default themes used in freecodecamp.org editor",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.0.0"
   },
