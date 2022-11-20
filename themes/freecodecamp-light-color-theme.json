@@ -1,0 +1,95 @@
+{
+	"name": "freecodecamp light",
+	"type": "light",
+	"colors": {
+		"editor.background": "#ffffff",
+		"editor.foreground": "#00107e",
+		"activityBar.background": "#0a0a23",
+		"activityBar.inactiveForeground": "#ffffffa0",
+		"button.background": "#d0d0d5",
+		"button.foreground": "#1b1b32",
+		"button.border": "#1b1b32",
+		"editor.lineHighlightBorder": "#cee8fc",
+		"editorBracketMatch.background": "#e5efe5",
+		"editorBracketHighlight.foreground1": "#000000",
+		"editorBracketHighlight.foreground2": "#000000",
+		"editorBracketHighlight.foreground3": "#000000",
+		"editorBracketHighlight.foreground4": "#000000",
+		"editorBracketHighlight.foreground5": "#000000",
+		"editorBracketHighlight.foreground6": "#000000",
+		"editorGroupHeader.tabsBackground": "#f5f6f7",
+		"editorGroupHeader.tabsBorder": "#dddddd",
+		"tab.activeBackground": "#d0d0d5",
+		"tab.inactiveBackground": "#f5f6f7",
+		"tab.activeBorderTop": "#dddddd",
+		"tab.activeBorder": "#d0d0d5",
+		"editorIndentGuide.background": "#ffffff00",
+		"editorIndentGuide.activeBackground": "#ffffff00",
+		"editorLineNumber.foreground": "#0a0a23",
+		"editorLineNumber.activeForeground": "#0b216f",
+		"editorWidget.background": "#f5f6f7",
+		"panel.background": "#f5f6f7",
+		"sideBar.background": "#f5f6f7",
+		"sideBar.border": "#d0d0d5"
+	},
+	"tokenColors": [
+		{
+			"name": "Generic: Comments",
+			"scope": [
+				"comment"
+			],
+			"settings": {
+				"foreground": "#008000"
+			}
+		},
+		{
+			"name": "Generic: Data Types, booleans, keywords",
+			"scope": [
+				"keyword",
+				"storage",
+				"constant.language"
+			],
+			"settings": {
+				"foreground": "#0000ff"
+			}
+		},
+		{
+			"name": "Generic: Operators, punctuation",
+			"scope": [
+				"keyword.operator",
+				"punctuation.terminator",
+				"punctuation.accessor"
+			],
+			"settings": {
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "Generic: Numbers",
+			"scope": [
+				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#098658"
+			}
+		},
+		{
+			"name": "Generic: Strings",
+			"scope": [
+				"string"
+			],
+			"settings": {
+				"foreground": "#a31515"
+			}
+		},
+		{
+			"name": "Generic: Defaults",
+			"scope": [
+				"variable"
+			],
+			"settings": {
+				"foreground": "#00107e"
+			}
+		}
+	]
+}

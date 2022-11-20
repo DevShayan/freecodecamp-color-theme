@@ -1,0 +1,42 @@
+{
+  "name": "freecodecamp-color-theme",
+  "displayName": "Freecodecamp Color Theme",
+  "description": "Default themes used in freecodecamp.org editor",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "publisher": "ShayanAhmedKhan",
+  "author": {
+    "name": "Shayan Ahmed Khan"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "freecodecamp.org",
+    "Free Code Camp",
+    "freecodecamp",
+    "freecodecamp color theme",
+    "freecodecamp theme"
+  ],
+  "icon": "icon.png",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "freecodecamp dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/freecodecamp-dark-color-theme.json"
+      },
+      {
+        "label": "freecodecamp light",
+        "uiTheme": "vs",
+        "path": "./themes/freecodecamp-light-color-theme.json"
+      }
+    ]
+  }
+}

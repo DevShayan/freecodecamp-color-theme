@@ -1,0 +1,94 @@
+{
+	"name": "freecodecamp dark",
+	"colors": {
+		"editor.background": "#2a2a40",
+		"editor.foreground": "#d4d4d4",
+		"activityBar.background": "#0a0a23",
+		"activityBar.inactiveForeground": "#ffffffa0",
+		"button.background": "#3b3b4f",
+		"button.border": "#f5f6f7",
+		"editor.lineHighlightBorder": "#0e4470",
+		"editorBracketMatch.background": "#263039",
+		"editorBracketHighlight.foreground1": "#ffff00",
+		"editorBracketHighlight.foreground2": "#ffff00",
+		"editorBracketHighlight.foreground3": "#ffff00",
+		"editorBracketHighlight.foreground4": "#ffff00",
+		"editorBracketHighlight.foreground5": "#ffff00",
+		"editorBracketHighlight.foreground6": "#ffff00",
+		"editorGroupHeader.tabsBackground": "#1b1b32",
+		"editorGroupHeader.tabsBorder": "#dddddd",
+		"tab.activeBackground": "#3b3b4f",
+		"tab.inactiveBackground": "#1b1b32",
+		"tab.activeBorderTop": "#dddddd",
+		"tab.activeBorder": "#3b3b4f",
+		"editorIndentGuide.background": "#ffffff00",
+		"editorIndentGuide.activeBackground": "#ffffff00",
+		"editorLineNumber.foreground": "#ffffff",
+		"editorLineNumber.activeForeground": "#c6c6c6",
+		"editorWidget.background": "#0a0a23",
+		"input.background": "#3b3b4f",
+		"panel.background": "#1b1b32",
+		"sideBar.background": "#1b1b32",
+		"sideBar.border": "#3b3b4f"
+	},
+	"tokenColors": [
+		{
+			"name": "Generic: Comments",
+			"scope": [
+				"comment"
+			],
+			"settings": {
+				"foreground": "#608b4e"
+			}
+		},
+		{
+			"name": "Generic: Data Types, booleans, keywords",
+			"scope": [
+				"keyword",
+				"storage",
+				"constant.language"
+			],
+			"settings": {
+				"foreground": "#569cd6"
+			}
+		},
+		{
+			"name": "Generic: Operators, punctuation",
+			"scope": [
+				"keyword.operator",
+				"punctuation.terminator",
+				"punctuation.accessor"
+			],
+			"settings": {
+				"foreground": "#9cdcfe"
+			}
+		},
+		{
+			"name": "Generic: Numbers",
+			"scope": [
+				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#b5cea8"
+			}
+		},
+		{
+			"name": "Generic: Strings",
+			"scope": [
+				"string"
+			],
+			"settings": {
+				"foreground": "#ce9178"
+			}
+		},
+		{
+			"name": "Generic: Defaults",
+			"scope": [
+				"variable"
+			],
+			"settings": {
+				"foreground": "#d4d4d4"
+			}
+		}
+	]
+}
