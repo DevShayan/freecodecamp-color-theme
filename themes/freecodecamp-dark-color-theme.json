@@ -1,5 +1,6 @@
 {
 	"name": "freecodecamp dark",
+	"type": "dark",
 	"colors": {
 		"editor.background": "#2a2a40",
 		"editor.foreground": "#d4d4d4",

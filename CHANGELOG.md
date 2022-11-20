@@ -1,9 +1,6 @@
 # Change Log
 
-All notable changes to the "freecodecamp-color-theme" extension will be documented in this file.
+## [1.0.0 - 20-11-2022]
+#### Major changes
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+- Initial release with themed JavaScript
