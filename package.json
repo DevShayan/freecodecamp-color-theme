@@ -11,7 +11,8 @@
     "name": "Shayan Ahmed Khan"
   },
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "https://github.com/DevShayan/freecodecamp-color-theme.git"
   },
   "license": "MIT",
   "keywords": [
