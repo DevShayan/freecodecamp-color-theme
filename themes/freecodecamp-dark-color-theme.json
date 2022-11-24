@@ -20,6 +20,8 @@
 		"editorGroupHeader.tabsBorder": "#dddddd",
 		"tab.activeBackground": "#3b3b4f",
 		"tab.inactiveBackground": "#1b1b32",
+		"tab.hoverBackground": "#eeeeee",
+		"tab.hoverForeground": "#1b1b32",
 		"tab.activeBorderTop": "#dddddd",
 		"tab.activeBorder": "#3b3b4f",
 		"editorIndentGuide.background": "#ffffff00",
@@ -43,9 +45,10 @@
 			}
 		},
 		{
-			"name": "Generic: Data Types, booleans, keywords",
+			"name": "Generic: Keywords, Data Types, Booleans",
 			"scope": [
 				"keyword",
+				"keyword.operator.new",
 				"storage",
 				"constant.language"
 			],
@@ -54,11 +57,9 @@
 			}
 		},
 		{
-			"name": "Generic: Operators, punctuation",
+			"name": "Generic: Operators",
 			"scope": [
 				"keyword.operator",
-				"punctuation.terminator",
-				"punctuation.accessor"
 			],
 			"settings": {
 				"foreground": "#9cdcfe"
@@ -83,12 +84,102 @@
 			}
 		},
 		{
+			"name": "Generic: Tags Punctuation",
+			"scope": [
+				"punctuation.definition.tag"
+			],
+			"settings": {
+				"foreground": "#808080"
+			}
+		},
+		{
+			"name": "Generic: Tags, Selector",
+			"scope": [
+				"entity.name.tag",
+				"meta.selector"
+			],
+			"settings": {
+				"foreground": "#569cd6"
+			}
+		},
+		{
+			"name": "Generic: Properties",
+			"scope": [
+				"meta.property-name"
+			],
+			"settings": {
+				"foreground": "#9cdcfe"
+			}
+		},
+		{
+			"name": "Generic: Values, Attribute Selector",
+			"scope": [
+				"meta.property-value",
+				"meta.attribute-selector"
+			],
+			"settings": {
+				"foreground": "#ce9178"
+			}
+		},
+		{
 			"name": "Generic: Defaults",
 			"scope": [
 				"variable"
 			],
 			"settings": {
 				"foreground": "#d4d4d4"
+			}
+		},
+		{
+			"name": "JS: Colored Punctuation",
+			"scope": [
+				"punctuation.terminator.statement.js",
+				"punctuation.accessor.js"
+			],
+			"settings": {
+				"foreground": "#9cdcfe"
+			}
+		},
+		{
+			"name": "CSS: Numeric Units",
+			"scope": [
+				"keyword.other.unit"
+			],
+			"settings": {
+				"foreground": "#b5cea8"
+			}
+		},
+		{
+			"name": "CSS: media, logical",
+			"scope": [
+				"meta.at-rule.media.header.css",
+				"keyword.operator.logical.only",
+				"keyword.operator.logical.and"
+			],
+			"settings": {
+				"foreground": "#569cd6"
+			}
+		},
+		{
+			"name": "CSS: Defaults",
+			"scope": [
+				"punctuation.definition.keyword",
+				"entity.name.tag.wildcard",
+				"keyword.operator.pattern.css",
+				"punctuation.separator.list.comma.css",
+				"constant.other.color.rgb-value.hex.css"
+			],
+			"settings": {
+				"foreground": "#d4d4d4"
+			}
+		},
+		{
+			"name": "HTML: Attributes",
+			"scope": [
+				"entity.other.attribute-name.html"
+			],
+			"settings": {
+				"foreground": "#9cdcfe"
 			}
 		}
 	]

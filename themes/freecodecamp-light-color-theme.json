@@ -3,7 +3,7 @@
 	"type": "light",
 	"colors": {
 		"editor.background": "#ffffff",
-		"editor.foreground": "#00107e",
+		"editor.foreground": "#000000",
 		"activityBar.background": "#e6e6e6",
 		"activityBar.foreground": "#000000",
 		"activityBar.border": "#d0d0d5",
@@ -44,25 +44,15 @@
 			}
 		},
 		{
-			"name": "Generic: Data Types, booleans, keywords",
+			"name": "Generic: Keywords, Data Types, Booleans",
 			"scope": [
 				"keyword",
+				"keyword.operator.new",
 				"storage",
 				"constant.language"
 			],
 			"settings": {
 				"foreground": "#0000ff"
-			}
-		},
-		{
-			"name": "Generic: Operators, punctuation",
-			"scope": [
-				"keyword.operator",
-				"punctuation.terminator",
-				"punctuation.accessor"
-			],
-			"settings": {
-				"foreground": "#000000"
 			}
 		},
 		{
@@ -84,12 +74,111 @@
 			}
 		},
 		{
-			"name": "Generic: Defaults",
+			"name": "Generic: Tags Punctuation",
 			"scope": [
+				"punctuation.definition.tag"
+			],
+			"settings": {
+				"foreground": "#383838"
+			}
+		},
+		{
+			"name": "Generic: Tags, Selector",
+			"scope": [
+				"entity.name.tag",
+				"meta.selector"
+			],
+			"settings": {
+				"foreground": "#800000"
+			}
+		},
+		{
+			"name": "Generic: Properties",
+			"scope": [
+				"meta.property-name"
+			],
+			"settings": {
+				"foreground": "#ff0000"
+			}
+		},
+		{
+			"name": "Generic: Values, Attribute Selector",
+			"scope": [
+				"meta.property-value",
+				"meta.attribute-selector"
+			],
+			"settings": {
+				"foreground": "#0451a5"
+			}
+		},
+		{
+			"name": "JS: Foreground",
+			"scope": [
+				"source.js",
 				"variable"
 			],
 			"settings": {
 				"foreground": "#00107e"
+			}
+		},
+		{
+			"name": "JS: Defaults",
+			"scope": [
+				"keyword.operator",
+				"punctuation.terminator",
+				"punctuation.accessor"
+			],
+			"settings": {
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "CSS: Numeric Units",
+			"scope": [
+				"keyword.other.unit"
+			],
+			"settings": {
+				"foreground": "#098658"
+			}
+		},
+		{
+			"name": "CSS: media, logical",
+			"scope": [
+				"keyword.control.at-rule.media.css",
+				"meta.at-rule.media.header.css",
+				"keyword.operator.logical.and.media.css",
+				"keyword.operator.logical.only.media.css"
+			],
+			"settings": {
+				"foreground": "#800000"
+			}
+		},
+		{
+			"name": "CSS: Defaults",
+			"scope": [
+				"punctuation.definition.keyword",
+				"entity.name.tag.wildcard"
+			],
+			"settings": {
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "HTML: Strings",
+			"scope": [
+				"string.quoted.double.html"
+			],
+			"settings": {
+				"foreground": "#0000ff"
+			}
+		},
+		{
+			"name": "HTML: Attributes",
+			"scope": [
+				"entity.other.attribute-name.html"
+			],
+			"settings": {
+				"foreground": "#ff0000"
 			}
 		}
 	]
