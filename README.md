@@ -10,11 +10,11 @@ freecodecamp color theme contains two basic themes, light and dark.
 
 ## Preview
 
-* Dark
+* freecodecamp dark
 
 ![Preview 1](preview/preview_dark.png)
 
-* Light
+* freecodecamp light
 
 ![Preview 1](preview/preview_light.png)
 
