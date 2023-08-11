@@ -12,20 +12,14 @@
 		"button.border": "#1b1b32",
 		"editor.lineHighlightBorder": "#cee8fc",
 		"editorBracketMatch.background": "#e5efe5",
-		"editorBracketHighlight.foreground1": "#000000",
-		"editorBracketHighlight.foreground2": "#000000",
-		"editorBracketHighlight.foreground3": "#000000",
-		"editorBracketHighlight.foreground4": "#000000",
-		"editorBracketHighlight.foreground5": "#000000",
-		"editorBracketHighlight.foreground6": "#000000",
 		"editorGroupHeader.tabsBackground": "#f5f6f7",
 		"editorGroupHeader.tabsBorder": "#dddddd",
 		"tab.activeBackground": "#d0d0d5",
 		"tab.inactiveBackground": "#f5f6f7",
 		"tab.activeBorderTop": "#dddddd",
 		"tab.activeBorder": "#d0d0d5",
-		"editorIndentGuide.background": "#ffffff00",
-		"editorIndentGuide.activeBackground": "#ffffff00",
+		"editorIndentGuide.background1": "#ffffff00",
+		"editorIndentGuide.activeBackground1": "#ffffff00",
 		"editorLineNumber.foreground": "#0a0a23",
 		"editorLineNumber.activeForeground": "#0b216f",
 		"editorWidget.background": "#f5f6f7",
@@ -35,16 +29,18 @@
 	},
 	"tokenColors": [
 		{
-			"name": "Generic: Comments",
+			"name": "Comments, JSDoc",
 			"scope": [
-				"comment"
+				"comment",
+				"storage.type.class.jsdoc",
+				"variable.other.jsdoc"
 			],
 			"settings": {
 				"foreground": "#008000"
 			}
 		},
 		{
-			"name": "Generic: Keywords, Data Types, Booleans",
+			"name": "Keywords, Data Types, Booleans",
 			"scope": [
 				"keyword",
 				"keyword.operator.new",
@@ -56,7 +52,7 @@
 			}
 		},
 		{
-			"name": "Generic: Numbers",
+			"name": "Numbers",
 			"scope": [
 				"constant.numeric"
 			],
@@ -65,7 +61,7 @@
 			}
 		},
 		{
-			"name": "Generic: Strings",
+			"name": "Strings",
 			"scope": [
 				"string"
 			],
@@ -74,7 +70,7 @@
 			}
 		},
 		{
-			"name": "Generic: Tags Punctuation",
+			"name": "Tags Punctuation",
 			"scope": [
 				"punctuation.definition.tag"
 			],
@@ -83,7 +79,7 @@
 			}
 		},
 		{
-			"name": "Generic: Tags, Selector",
+			"name": "Tags, Selector",
 			"scope": [
 				"entity.name.tag",
 				"meta.selector"
@@ -93,7 +89,7 @@
 			}
 		},
 		{
-			"name": "Generic: Properties",
+			"name": "Properties",
 			"scope": [
 				"meta.property-name"
 			],
@@ -102,7 +98,7 @@
 			}
 		},
 		{
-			"name": "Generic: Values, Attribute Selector",
+			"name": "Values, Attribute Selector",
 			"scope": [
 				"meta.property-value",
 				"meta.attribute-selector"
@@ -112,10 +108,11 @@
 			}
 		},
 		{
-			"name": "JS: Foreground",
+			"name": "JS: Variable, Function",
 			"scope": [
-				"source.js",
-				"variable"
+				"variable",
+				"support.variable.property.js",
+				"entity.name.function.js"
 			],
 			"settings": {
 				"foreground": "#00107e"
@@ -125,11 +122,20 @@
 			"name": "JS: Defaults",
 			"scope": [
 				"keyword.operator",
-				"punctuation.terminator",
-				"punctuation.accessor"
+				"storage.type.function.arrow.js",
+				"meta.template.expression.js"
 			],
 			"settings": {
 				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "CSS: :",
+			"scope": [
+				"punctuation.separator.key-value.css"
+			],
+			"settings": {
+				"foreground": "#ff0000"
 			}
 		},
 		{
@@ -157,7 +163,11 @@
 			"name": "CSS: Defaults",
 			"scope": [
 				"punctuation.definition.keyword",
-				"entity.name.tag.wildcard"
+				"punctuation.definition.parameters.begin.bracket.round.css",
+				"punctuation.definition.parameters.end.bracket.round.css",
+				"punctuation.separator.list.comma.css",
+				"punctuation.definition.entity.begin.bracket.square.css",
+				"punctuation.definition.entity.end.bracket.square.css"
 			],
 			"settings": {
 				"foreground": "#000000"
