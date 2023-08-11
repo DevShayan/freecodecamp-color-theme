@@ -1,6 +1,6 @@
 # Change Log
 
-## [1.1.1 - 24-11-2022]
+## [1.1.1 - 11-08-2023]
 #### Changed
 
 - Fixed bracket colors for JavaScript
